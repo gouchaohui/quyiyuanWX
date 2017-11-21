@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: pentaho:metastore:6.0.0.0-353">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/pentaho/metastore/6.0.0.0-353/metastore-6.0.0.0-353.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/pentaho/metastore/6.0.0.0-353/metastore-6.0.0.0-353-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/pentaho/metastore/6.0.0.0-353/metastore-6.0.0.0-353-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

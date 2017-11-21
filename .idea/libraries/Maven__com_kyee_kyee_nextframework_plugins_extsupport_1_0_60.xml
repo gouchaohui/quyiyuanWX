@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.kyee:kyee_nextframework_plugins_extsupport:1.0.60">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kyee/kyee_nextframework_plugins_extsupport/1.0.60/kyee_nextframework_plugins_extsupport-1.0.60.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kyee/kyee_nextframework_plugins_extsupport/1.0.60/kyee_nextframework_plugins_extsupport-1.0.60-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kyee/kyee_nextframework_plugins_extsupport/1.0.60/kyee_nextframework_plugins_extsupport-1.0.60-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

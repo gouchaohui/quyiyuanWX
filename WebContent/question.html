@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<title>常见问题</title>
+	<style type="text/css">
+		body{font-size:14px;}
+	</style>
+	
+	<script type="text/javascript">
+		function onBridgeReady(){
+			WeixinJSBridge.call('hideOptionMenu'); 
+		}
+		if(typeof WeixinJSBridge == "undefined"){ 
+			if( document.addEventListener ){ 
+				document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
+			}else if (document.attachEvent){ 
+				document.attachEvent('WeixinJSBridgeReady', onBridgeReady); 
+				document.attachEvent('onWeixinJSBridgeReady', onBridgeReady); }
+		}else{
+			onBridgeReady(); 
+		}
+	</script>
+	
+	
+<body>
+<div style="font-size:16px;">
+	<b>问题1：</b>  点击“附近医院”后，当前地理位置信息显示不正确？<br/> 
+	<b>回答：</b><br/> 
+	<ol>
+		<li>Android:确定开启手机GPS，并确定微信有获取GPS的权限。查看该服务号信息，确定该服务号的提供位置信息设置为打开。</li>
+		<li>IOS:设置-->微信-->位置  确定微信允许访问位置信息。查看该服务号信息，确定该服务号的提供位置信息设置为打开。</li>
+	</ol>
+</div>
+
+</body>
+</html>

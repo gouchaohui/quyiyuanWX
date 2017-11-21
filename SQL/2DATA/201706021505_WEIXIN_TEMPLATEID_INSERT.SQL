@@ -1,0 +1,14 @@
+prompt MYSQL Developer import file
+prompt Created on 2017-06-02 by licong
+prompt Audited on 2017-06-02 by renguohua,mayunyun
+
+prompt 201706021505_WEIXIN_TEMPLATEID_INSERT.SQL Start!
+
+INSERT INTO WEIXIN_TEMPLATEID (TEMPLATE_NAME,TEMPLATE_ID)
+SELECT 'remindOfConsultation','3kSm2LehId6wN8gkkBIQXeS0XhPiXlBarE-8P8B7sjc'
+FROM DUAL
+WHERE NOT EXISTS (SELECT TEMPLATE_NAME  FROM WEIXIN_TEMPLATEID WHERE TEMPLATE_NAME = 'remindOfConsultation' );
+
+commit;
+
+prompt 201706021505_WEIXIN_TEMPLATEID_INSERT.SQL End!

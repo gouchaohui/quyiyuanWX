@@ -1,0 +1,8 @@
+prompt MYSQL Developer import file
+prompt Created on 2017-08-15 by caozhihao
+
+prompt 201708151041_WEIXIN_TEMPLATEID_UPDATE.SQL Start!
+
+UPDATE WEIXIN_TEMPLATEID SET TEMPLATE_ID='vq3nQpKnzJUDh4UDjire-2pLi9yGzVJQDEby2ps6mt4' WHERE TEMPLATE_NAME='medicalInform';
+
+prompt 201708151041_WEIXIN_TEMPLATEID_UPDATE.SQL End!

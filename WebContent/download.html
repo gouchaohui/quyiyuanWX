@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>趣医院</title>
+<script type="text/javascript">
+	window.onload=checkPostType;
+	
+	function checkPostType(){
+		
+		//浏览器对象包含所有浏览器的内置信息，不同类型的设备会包含个字的关键字
+		var userAgentMsg = navigator.userAgent;
+		
+		var userType = "";
+		if(userAgentMsg.indexOf("iPhone") > -1){
+			userType = "ios";
+		}
+		if(userAgentMsg.indexOf("Android") > -1){
+			userType = "android";
+		}
+		if(userAgentMsg.indexOf("Trident") > -1){
+			userType = "IE";
+		}
+		/**判断请求是否来源于微信浏览器
+		if(userAgentMsg.indexOf("MicroMessenger")){
+			userType = "weixinbrower";
+		}*/
+		if(userType == "ios"){
+			//使用微信跳转到app store			
+			location.href="http://mp.weixin.qq.com/mp/redirect?url=https://itunes.apple.com/cn/app/qu-yi-yuan/id919915695&mt=8";
+		}else{
+			location.href="http://www.quyiyuan.com/mobileweb/mobiledownload.html";
+		}
+	}
+</script>	
+</head>
+<body>
+	<div align="center" style="width: 100% ; height: 100%; ">
+		<img style="width: 100%;height: 100%;" src="http://localhost:8080/publicservice/images/main.jpg"></img>
+	</div>
+</body>
+</html>

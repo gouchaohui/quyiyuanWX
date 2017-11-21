@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="publicservice-1.0.10">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="kyee_nextframework_core-1.0.50.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/kyee_nextframework_core/kyee_nextframework_core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="kyee_nextframework_plugins_extsupport-1.0.50.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/kyee_nextframework_plugins_extsupport/kyee_nextframework_plugins_extsupport">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/publicservice/target/classes"/>
+        <property name="context-root" value="publicservice"/>
+    </wb-module>
+</project-modules>

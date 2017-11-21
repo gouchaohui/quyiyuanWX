@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<title>微信测试</title>
+ 
+<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/sha1.js"></script>
+
+<script>
+	
+	function WeiXinShareBtn() {
+		/*
+	    if (typeof WeixinJSBridge == "undefined") {
+	        alert("请先通过微信搜索 wow36kr 添加36氪为好友，通过微信分享文章:)  ");
+	    } else {
+	    	alert("xxx");
+	        WeixinJSBridge.invoke('shareTimeline', {
+	            "title": "36氪",
+	            "link": "http://www.36kr.com",
+	            "desc": "关注互联网创业",
+	            "img_url": "http://www.36kr.com/assets/images/apple-touch-icon.png"
+	        });
+	    }
+		*/
+		alert("hsss");
+		wx.onMenuShareTimeline({
+		    title: '百度', // 分享标题
+		    link: 'http://www.baidu.com', // 分享链接
+		    imgUrl: '', // 分享图标
+		    success: function (info) { 
+		        // 用户确认分享后执行的回调函数
+		        alert("成功"+info);
+		    },
+		    cancel: function () { 
+		        // 用户取消分享后执行的回调函数
+		    	 alert("失败");
+		    }
+		});
+	}
+	
+	
+	
+	
+	function toFriend(){
+		wx.onMenuShareAppMessage({
+		    title: '分享标题', // 分享标题
+		    desc: '分享描述', // 分享描述
+		    link: 'http://www.baidu.com', // 分享链接
+		    imgUrl: '', // 分享图标
+		    type: '', // 分享类型,music、video或link，不填默认为link
+		    dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
+		    success: function () { 
+		        // 用户确认分享后执行的回调函数
+		        alert("成功");
+		    },
+		    cancel: function () { 
+		        // 用户取消分享后执行的回调函数
+		    	alert("失败");
+		    }
+		});
+		
+	}
+	
+	function toQQ(){
+		wx.onMenuShareQQ({
+		    title: '', // 分享标题
+		    desc: '', // 分享描述
+		    link: '', // 分享链接
+		    imgUrl: '', // 分享图标
+		    success: function () { 
+		       // 用户确认分享后执行的回调函数
+		    },
+		    cancel: function () { 
+		       // 用户取消分享后执行的回调函数
+		    }
+		});
+		
+	}
+	
+	function toWeibo(){
+		wx.onMenuShareWeibo({
+		    title: '', // 分享标题
+		    desc: '', // 分享描述
+		    link: '', // 分享链接
+		    imgUrl: '', // 分享图标
+		    success: function () { 
+		       // 用户确认分享后执行的回调函数
+		    },
+		    cancel: function () { 
+		        // 用户取消分享后执行的回调函数
+		    }
+		});
+	}
+
+/*
+function onBridgeReady()
+{ WeixinJSBridge.call('hideOptionMenu'); }
+if (typeof WeixinJSBridge == "undefined"){ 
+//if( document.addEventListener )
+//{ 
+	document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
+//	}
+//else if (document.attachEvent)
+//{ 
+	document.attachEvent('WeixinJSBridgeReady', onBridgeReady); 
+	document.attachEvent('onWeixinJSBridgeReady', onBridgeReady); }
+//}else
+{ onBridgeReady(); }
+*/
+</script>
+
+<script type="text/javascript">
+
+	$.ajax({
+		type:"POST",
+		url:"http://open.quyiyuan.com/publicservice/pay",
+		success:function(result){
+			if(result==-1){//获取ticket失败
+				document.getElementById("d1").innerHTML = "获取ticket失败";
+			}else if(result==1){//微信版本低于5.0，不支持微信支付
+				document.getElementById("d1").innerHTML = "微信版本低于5.0，不支持微信支付";
+			}else if(result==0){//该浏览器不支持微信支付
+				document.getElementById("d1").innerHTML = "该浏览器不支持微信支付";
+			}else if(result){
+				//document.getElementById("d1").innerHTML = result;
+				var rejson = eval('('+result+')');
+				wx.config({
+				    debug: true, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+				    appId: 'wx09cbf2186670fddc', // 必填，公众号的唯一标识
+				    timestamp: rejson.timestamp, // 必填，生成签名的时间戳
+				    nonceStr: rejson.noncestr, // 必填，生成签名的随机串
+				    signature: rejson.signnature,// 必填，签名，见附录1
+				    jsApiList: ['onMenuShareTimeline','onMenuShareAppMessage','onMenuShareQQ','onMenuShareWeibo'] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
+				});
+				
+				
+				
+				wx.ready(function(){
+					//wx.hideOptionMenu();
+					//获取“分享到朋友圈”按钮点击状态及自定义分享内容接口
+					
+					wx.onMenuShareTimeline({
+					    title: '趣医院', // 分享标题
+					    link: 'http://app.quyiyuan.com/IOS', // 分享链接
+					    imgUrl: '', // 分享图标
+					    success: function (info) { 
+					        // 用户确认分享后执行的回调函数
+					        alert("成功"+info);
+					    },
+					    cancel: function () { 
+					        // 用户取消分享后执行的回调函数
+					    	alert("失败");
+					    }
+					});
+					
+					
+					wx.onMenuShareAppMessage({
+					    title: '趣医院', // 分享标题
+					    desc: '掌上医院', // 分享描述
+					    link: 'http://app.quyiyuan.com/IOS', // 分享链接
+					    imgUrl: '', // 分享图标
+					    type: '', // 分享类型,music、video或link，不填默认为link
+					    dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
+					    success: function () { 
+					        // 用户确认分享后执行的回调函数
+					        alert("成功");
+					    },
+					    cancel: function () { 
+					        // 用户取消分享后执行的回调函数
+					    	alert("失败");
+					    }
+					});
+				});
+				
+				wx.error(function(res){
+					console.log(res);
+				});
+				
+				
+				wx.checkJsApi({
+				    jsApiList: ['onMenuShareTimeline'] ,// 需要检测的JS接口列表，所有JS接口列表见附录2,
+				    success: function(res) {
+				    	//alert("onMenuShareTimeline");
+				    	
+				    }
+				        // 以键值对的形式返回，可用的api值true，不可用为false
+				        // 如：{"checkResult":{"chooseImage":true},"errMsg":"checkJsApi:ok"}
+				});
+				
+				
+				
+					/*
+					
+					*/
+				
+				
+			}
+		},
+		error:function(result){
+			
+			alert("hello");
+		}
+		
+		
+		
+		
+	});
+
+	
+	/*
+
+window.onload=function()//用window的onload事件，窗体加载完毕的时候
+{
+	var href = window.location.href;
+	var ticketStr = href.substring(href.indexOf("?ticket")+8);
+	console.log(ticketStr);
+	if(ticketStr==-1){//获取ticket失败
+		document.getElementById("d1").innerHTML = "获取ticket失败";
+	}else if(ticketStr==1){//微信版本低于5.0，不支持微信支付
+		document.getElementById("d1").innerHTML = "微信版本低于5.0，不支持微信支付";
+	}else if(ticketStr==0){//该浏览器不支持微信支付
+		document.getElementById("d1").innerHTML = "该浏览器不支持微信支付";
+	}else{
+		document.getElementById("d1").innerHTML = ticketStr;
+		
+		alert(ticketStr);
+		var stringA = "jsapi_ticket="+ticketStr+"&noncestr=IEvmfKzIolFH9NpFSDUC&timestamp=1421292904&url=http://121.42.25.45/publicservice/weixin.html";
+		alert(stringA);
+		
+		var sign = hex_sha1(stringA);
+		alert(sign);
+		
+		wx.config({
+		    debug: true, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+		    appId: 'wx09cbf2186670fddc', // 必填，公众号的唯一标识
+		    timestamp: 1421292904, // 必填，生成签名的时间戳
+		    nonceStr: 'IEvmfKzIolFH9NpFSDUC', // 必填，生成签名的随机串
+		    signature: sign,// 必填，签名，见附录1
+		    jsApiList: ['onMenuShareTimeline'] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
+		});
+		
+	}
+}
+
+
+
+
+
+*/
+
+</script>
+
+
+
+</head>
+<body>
+
+<div id="d1"></div>
+
+</body>
+</html>

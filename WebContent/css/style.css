@@ -1,0 +1,229 @@
+body, html{width: 100%;height: 100%;margin:0;font-family:"微软雅黑";}
+#allmap {height: 100%;width:100%;overflow: hidden;}
+#result {width:100%;font-size:12px;}
+/*#menu {right:0; top:0; width:100%; height:50px; position:fixed; padding:5px; text-align:center; font-weight:bold; background:#ccc;opacity:0.5;}
+*/
+#menu01 {left:0px;}
+#menu02 {left:33.3%;}
+#menu03 {left:66.6%;}
+
+#footer{ 
+	position:fixed; 
+	z-index:1000;
+	bottom:40px; 
+	left:10px; 
+	background:#ffffff; 
+	width:60px; 
+	height:28px;
+	font-size :15px;
+	font-weight :100;
+	text-align: center;
+	border:1px solid lightgray;
+	border-radius:4px;
+	padding:2px;
+	/*opacity:0.5;/*其他，透明度50%*/
+	/*background-color:rgba(81, 86, 88, 0.6);*/
+}
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+::selection {
+    background: transparent; 
+}
+
+::-moz-selection {
+    background: transparent; 
+}
+
+.wrapper-demo {
+   /* margin: 60px 0 0 0;
+    *zoom: 1;*/
+    font-weight: 400;
+}
+
+.wrapper-demo:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+
+
+/* DEMO 5 */
+
+.wrapper-dropdown-5 {
+    /* Size & position */
+    top:10px; 
+    position:fixed;
+   /* position: relative;*/
+    width: 33.3%;
+    margin: 0 auto;
+    padding: 5px 5px;
+    font-weight:bold; 
+    border:1px solid #DFDFDF;
+    border-radius: 7px;
+	font-size:16px;
+	text-align:center;
+    /* Styles */
+    background: #fff;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+    outline: none;
+    /*
+    -webkit-transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    -ms-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+    */
+}
+
+.wrapper-dropdown-5:after { /* Little arrow */
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 50%;
+    right: 1px;
+    margin-top: -3px;
+    border-width: 6px 6px 0 6px;
+    border-style: solid;
+    border-color: #4cbeff transparent;
+}
+
+.wrapper-dropdown-5 .dropdown {
+    /* Size & position */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+	
+    /* Styles */
+    background: #fff;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-top: none;
+    border-bottom: none;
+    list-style: none;
+    /*
+    -webkit-transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    -ms-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+*/
+    /* Hiding */
+    max-height: 0;
+    overflow: hidden;
+}
+
+.wrapper-dropdown-5 .dropdown li {
+    padding: 0 5px ;
+    text-align:center;
+    font-size:14px;
+}
+
+.wrapper-dropdown-5 .dropdown li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 10px 0;
+   /* transition: all 0.1s ease-out;*/
+    border-bottom: 1px solid #e6e8ea;
+}
+
+.wrapper-dropdown-5 .dropdown li:last-of-type a {
+    border: none;
+    
+}
+
+.wrapper-dropdown-5 .dropdown li i {
+    margin-right: 5px;
+    color: inherit;
+    vertical-align: middle;
+}
+
+/* Hover state */
+
+.wrapper-dropdown-5 .dropdown li:hover a {
+    color: #57a9d9;
+}
+
+/* Active state */
+
+.wrapper-dropdown-5.active {
+    border-radius: 5px 5px 0 0;
+    background: #4cbeff;
+    box-shadow: none;
+    border-bottom: none;
+    color: white;
+}
+
+.wrapper-dropdown-5.active:after {
+    border-color: #82d1ff transparent;
+}
+
+.wrapper-dropdown-5.active .dropdown {
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    max-height: 400px;
+}
+
+.divbtn{
+	float:left;
+	padding:2px 0px 0px 0px;
+	border:2px solid red; 
+	text-align:center;
+	background-color:#4FB64B;
+ 			margin:7px 0px 0px 3px;
+	width:50px; /*按钮的长度*/ 
+	height:26px; /*按钮的高度*/ 
+	border-width: 0; /*边框为0 */
+	font-size: 16px; /*字体大小*/ 
+	color: #FFFFFF; /*字体颜色*/ 
+	font-weight: 800; /*字体加重*/ 
+	border-radius: 6px; /*圆角*/ 
+	cursor:pointer; /*指针形式：手型*/ 
+}
+
+#listIcon{
+	float:left;
+	margin:1px 0px 0px 0px;
+	left:5px; 
+	background-repeat:no-repeat; 
+	background-size:100% 100%; 
+	width:22px;
+	height:22px;
+	
+}
+
+#mylist{
+	float:left;
+	padding:3px 0px 0px 0px;
+	height:22px;
+	color:#4f87c8;
+}
+
+.openWindow{
+	line-height:1.6em;
+	font-size:14px;
+	width:230px;
+	
+}
+
+.menubtn{
+	
+	float: left;font-size: 16px;color: #FFFFFF;font-weight: 800;text-align:center;margin:7px 0px 0px 5px;padding:13px 0px 0px 0px;background-image:url(\"images/map_1.png\"); background-repeat:no-repeat; background-size:100% 100%; width:50px;height:50px
+}
+
+.menudiv{
+	
+	line-height:0.9em;padding:10px 0px 0px 0px;border-bottom:1px dashed #44aa99;width:220px
+}
+

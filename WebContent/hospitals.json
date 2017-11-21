@@ -1,0 +1,214 @@
+{
+    "hospitals": [
+        {
+            "cityId": 246, 
+            "hospitalId": 1650, 
+            "hospitalLevel": "0", 
+            "hospitalName": "西京医院", 
+            "hospitalNature": "0", 
+            "latitude": 34.276508, 
+            "longitude": 108.994693, 
+            "mailingAddress": "新城区长乐西路127号"
+        }, 
+        {
+            "cityId": 10, 
+            "hospitalId": 1662, 
+            "hospitalLevel": "0", 
+            "hospitalName": "西安交通大学医学院第一附属医院", 
+            "hospitalNature": "1", 
+            "latitude": 34.225192, 
+            "longitude": 108.943284, 
+            "mailingAddress": "陕西省西安市雁塔西路277号(原健康路1号)"
+        }, 
+        {
+            "cityId": 255, 
+            "hospitalId": 1679, 
+            "hospitalLevel": "1", 
+            "hospitalName": "陕西省人民医院", 
+            "hospitalNature": "0", 
+            "latitude": 34.246449, 
+            "longitude": 108.937675, 
+            "mailingAddress": "碑林区黄雁村友谊西路256号(近体育学院)"
+        }, 
+        {
+            "cityId": 57, 
+            "hospitalId": 1680, 
+            "hospitalLevel": "1", 
+            "hospitalName": "唐都医院", 
+            "hospitalNature": "1", 
+            "latitude": 34.289506, 
+            "longitude": 109.069443, 
+            "mailingAddress": "陕西省西安市灞桥区新寺路1号"
+        }, 
+        {
+            "cityId": 246, 
+            "hospitalId": 1682, 
+            "hospitalLevel": "2", 
+            "hospitalName": "西安高新医院", 
+            "hospitalNature": "1", 
+            "latitude": 34.236198, 
+            "longitude": 108.888133, 
+            "mailingAddress": "高新区团结南路16号(近西北电力设计院)"
+        }, 
+        {
+            "cityId": 246, 
+            "hospitalId": 1710, 
+            "hospitalLevel": "2", 
+            "hospitalName": "长安医院", 
+            "hospitalNature": "0", 
+            "latitude": 34.326705, 
+            "longitude": 108.94456, 
+            "mailingAddress": "西安经济技术开发区文景路17号"
+        }, 
+        {
+            "cityId": 233, 
+            "hospitalId": 1711, 
+            "hospitalLevel": "3", 
+            "hospitalName": "西安市第四医院", 
+            "hospitalNature": "1", 
+            "latitude": 34.266746, 
+            "longitude": 108.969768, 
+            "mailingAddress": "解放路21号"
+        }, 
+        {
+            "cityId": 233, 
+            "hospitalId": 1712, 
+            "hospitalLevel": "3", 
+            "hospitalName": "西安323医院", 
+            "hospitalNature": "1", 
+            "latitude": 34.241839, 
+            "longitude": 108.968048, 
+            "mailingAddress": "碑林区建设西路66号(近大雁塔)"
+        }, 
+        {
+            "cityId": 233, 
+            "hospitalId": 1713, 
+            "hospitalLevel": "4", 
+            "hospitalName": "西安市儿童医院", 
+            "hospitalNature": "0", 
+            "latitude": 34.268163, 
+            "longitude": 108.932409, 
+            "mailingAddress": "陕西省西安市莲湖区西门内西举院巷69号"
+        }, 
+        {
+            "cityId": 233, 
+            "hospitalId": 1714, 
+            "hospitalLevel": "4", 
+            "hospitalName": "西安市红会医院骨伤分院", 
+            "hospitalNature": "0", 
+            "latitude": 34.249672, 
+            "longitude": 108.954791, 
+            "mailingAddress": "友谊东路555号"
+        }, 
+        {
+            "cityId": 233, 
+            "hospitalId": 1715, 
+            "hospitalLevel": "5", 
+            "hospitalName": "西安市第一医院", 
+            "hospitalNature": "1", 
+            "latitude": 34.261547, 
+            "longitude": 108.951491, 
+            "mailingAddress": "陕西省西安市眼科医院(市一医院)门诊三楼东侧(南大街)"
+        }, 
+        {
+            "cityId": 233, 
+            "hospitalId": 1716, 
+            "hospitalLevel": "5", 
+            "hospitalName": "儿童医院(北马道巷店)", 
+            "hospitalNature": "0", 
+            "latitude": 34.268163, 
+            "longitude": 108.932212, 
+            "mailingAddress": "西举院巷69号"
+        }, 
+        {
+            "cityId": 233, 
+            "hospitalId": 1717, 
+            "hospitalLevel": "3", 
+            "hospitalName": "陕西省中医医院", 
+            "hospitalNature": "0", 
+            "latitude": 34.27005, 
+            "longitude": 108.951469, 
+            "mailingAddress": "西华门大街2号"
+        }, 
+        {
+            "cityId": 233, 
+            "hospitalId": 1718, 
+            "hospitalLevel": "1", 
+            "hospitalName": "西安市中心医院", 
+            "hospitalNature": "1", 
+            "latitude": 34.276441, 
+            "longitude": 108.95486, 
+            "mailingAddress": "西安市新城区北大街后宰门185号"
+        }, 
+        {
+            "cityId": 233, 
+            "hospitalId": 1719, 
+            "hospitalLevel": "2", 
+            "hospitalName": "解放军第四五一医院", 
+            "hospitalNature": "1", 
+            "latitude": 34.249314, 
+            "longitude": 108.974011, 
+            "mailingAddress": "陕西省西安市友谊东路269号(李家村十字东200米路北)"
+        }, 
+        {
+            "cityId": 233, 
+            "hospitalId": 1720, 
+            "hospitalLevel": "3", 
+            "hospitalName": "西安市第五医院", 
+            "hospitalNature": "0", 
+            "latitude": 34.264971, 
+            "longitude": 108.924353, 
+            "mailingAddress": "西安市莲湖区西关正街112号"
+        }, 
+        {
+            "cityId": 233, 
+            "hospitalId": 1721, 
+            "hospitalLevel": "4", 
+            "hospitalName": "中国人民解放军三二三医院", 
+            "hospitalNature": "0", 
+            "latitude": 34.240727, 
+            "longitude": 108.967252, 
+            "mailingAddress": "建设西路6号"
+        }, 
+        {
+            "cityId": 233, 
+            "hospitalId": 1722, 
+            "hospitalLevel": "5", 
+            "hospitalName": "陕西省第二人民医院", 
+            "hospitalNature": "1", 
+            "latitude": 34.266589, 
+            "longitude": 108.973524, 
+            "mailingAddress": "陕西省西安新城区尚勤路3号"
+        }, 
+        {
+            "cityId": 233, 
+            "hospitalId": 1722, 
+            "hospitalLevel": "5", 
+            "hospitalName": "友谊医院", 
+            "hospitalNature": "1", 
+            "latitude": 34.247441, 
+            "longitude": 108.933907, 
+            "mailingAddress": "西安市友谊西路277号"
+        }, 
+        {
+            "cityId": 233, 
+            "hospitalId": 1722, 
+            "hospitalLevel": "2", 
+            "hospitalName": "西安同济医院", 
+            "hospitalNature": "1", 
+            "latitude": 34.188986, 
+            "longitude": 108.951841, 
+            "mailingAddress": "陕西省西安市长安南路16号"
+        }, 
+        {
+            "cityId": 233, 
+            "hospitalId": 1722, 
+            "hospitalLevel": "1", 
+            "hospitalName": "民航西安医院", 
+            "hospitalNature": "1", 
+            "latitude": 34.258004, 
+            "longitude": 108.911427, 
+            "mailingAddress": "锦园路"
+        }
+    ]
+}

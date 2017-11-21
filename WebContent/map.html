@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<!-- 页面要在移动端浏览器正常显示必须包含下面一行 -->
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<title>附近医院</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" href="css/list.css">
+
+	<!-- 引用百度地图API  -->
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=Rn2X5m0GV2dqbAg4300F8f4R"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/showmap.js"></script>
+	<script type="text/javascript">
+
+	var isList =  false;
+	
+	$(document).ready(function(){
+		
+		$("#footer").click(function (){
+			if(!isList){
+				//将列表改成地图
+				//$("#mylist").html("地图");
+				//$("#listIcon").css("background-image","url(images/13.png)");
+				$("#map").css("display","none");
+				$("#hoslist").css("display","block");
+				
+				var wid = $(".mui-table-view-cell").css("width");
+				var x = parseInt(wid);
+				$(".hosname").css("width",x-110);
+				isList = true;
+				//隐藏右下角地图
+				$("#footer").css("display","none");
+				
+				
+				//显示医院数据
+				if(hospitals){
+					showHospitals = hospitals;
+					showList();
+				}
+			}
+			
+		});
+
+		
+		$("#retMap").click(function(){
+			isList = false;
+			$("#footer").css("display","block");
+			$("#map").css("display","block");
+			$("#hoslist").css("display","none");
+		});
+		
+		$("#arrow").click(function(){
+			isList = false;
+			$("#footer").css("display","block");
+			$("#map").css("display","block");
+			$("#hoslist").css("display","none");
+		});
+		
+		
+		function DropDown(el) {
+			this.dd = el;
+			this.initEvents();
+		}
+		DropDown.prototype = {
+			initEvents : function() {
+				var obj = this;
+
+				obj.dd.on('click', function(event){
+					$(this).toggleClass('active');
+					event.stopPropagation();
+				});	
+			}
+		}
+		
+		var menu01 = new DropDown( $('#menu01') );
+		var menu02 = new DropDown( $('#menu02') );
+		var menu03 = new DropDown( $('#menu03') );
+
+		$("#toggle01lbl").click(function(){
+			if(toggle01Show){
+				$("#dropdown01").find("ul").css("display","block");
+				$("#dropdown02").find("ul").css("display","none");
+				$("#dropdown03").find("ul").css("display","none");
+				toggle01Show = false;
+				toggle02Show = true;
+				toggle03Show = true;
+			}else{
+				$("#dropdown01").find("ul").css("display","none");
+				toggle01Show = true;
+			}
+			
+		});
+		
+		$("#toggle02lbl").click(function(){
+			if(toggle02Show){
+				$("#dropdown02").find("ul").css("display","block");
+				$("#dropdown01").find("ul").css("display","none");
+				$("#dropdown03").find("ul").css("display","none");
+				toggle02Show = false;
+				toggle01Show = true;
+				toggle03Show = true;
+			}else{
+				$("#dropdown02").find("ul").css("display","none");
+				toggle02Show = true;
+			}
+		});
+		
+		$("#toggle03lbl").click(function(){
+			if(toggle03Show){
+				$("#dropdown03").find("ul").css("display","block");
+				$("#dropdown01").find("ul").css("display","none");
+				$("#dropdown02").find("ul").css("display","none");
+				toggle03Show = false;
+				toggle01Show = true;
+				toggle02Show = true;
+			}else{
+				$("#dropdown03").find("ul").css("display","none");
+				toggle03Show = true;
+			}
+		});
+		
+		$(document).click(function() {
+			// all dropdowns
+			$('.wrapper-dropdown-5').removeClass('active');
+		});
+	});
+		
+
+
+
+	
+	</script>
+	
+</head>
+<body>
+<div style=" height:100%;" id="map">
+	<div id="allmap" style=" height:100%;"> </div>
+	<div id="r-result" onclick="closeResult()"></div>
+	<div id="menu01" class="wrapper-dropdown-5"><span id="levelname">医院等级</span>
+		<ul class="dropdown">
+			<li><a onclick="selectLevel(-1,1)">全&nbsp;部</a></li>
+			<li><a onclick="selectLevel(0,1)">三级特等</a></li>
+			<li><a onclick="selectLevel(1,1)">三级甲等</a></li>
+			<li><a onclick="selectLevel(2,1)">二级甲等</a></li>
+			<li><a onclick="selectLevel(3,1)">一级甲等</a></li>
+			<li><a onclick="selectLevel(4,1)">三级乙等</a></li>
+			<li><a onclick="selectLevel(5,1)">其&nbsp;他</a></li>
+			
+		</ul>
+	</div>
+		
+	<div id="menu02" class="wrapper-dropdown-5" tabindex="1"><span id="natureName">医院性质</span>
+		<ul class="dropdown">
+			<li><a onclick="selectNature(-1,1)">全&nbsp;部</a></li>
+			<li><a onclick="selectNature(0,1)">公立医院</a></li>
+			<li><a onclick="selectNature(1,1)">私立医院</a></li>
+		</ul>
+	</div>
+	
+				
+	<div id="menu03" class="wrapper-dropdown-5" tabindex="1"><span id="scopeName">诊疗范围</span>
+		<ul class="dropdown">
+			<li><a onclick="selectScope(-1,1)">全&nbsp;部</a></li>
+			<li><a onclick="selectScope(0,1)">综合医院</a></li>
+			<li><a onclick="selectScope(1,1)">专科医院</a></li>
+		</ul>
+	</div>
+	  
+</div>
+
+<div id="footer" >
+	<div id="listIcon" style="background-image:url(images/12.png);"></div>
+	<div id="mylist" >列表</div>
+</div>
+<header class="mui-bar mui-bar-nav">
+<!-- 
+    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+     -->
+    <div  class="mui-title">
+   		<div id="arrow" >&lt;</div>
+	    <div id="retMap">
+	    	<div id="mapword">地图</div>
+	    	<div id="mapIcon" style="background-image:url(images/13.png);"></div>
+    	</div>
+    	
+    	<br/><br/>
+    	<dropdown id="dropdown01">
+		  <input id="toggle01" type="checkbox" >
+		  <label for="toggle01" id="toggle01lbl" ><b>医院等级</b>&nbsp;<img src="images/triangle.png" style="width:16px;height:8px"></label>
+		  <ul >
+		    <li onclick="selectLevel(-1,0)">全&nbsp;部</li>
+		    <li onclick="selectLevel(0,0)">三级特等</li>
+		    <li onclick="selectLevel(1,0);">三级甲等</li>
+		    <li onclick="selectLevel(2,0);">二级甲等</li>
+		    <li onclick="selectLevel(3,0);">一级甲等</li>
+		  </ul>
+		</dropdown>
+		<dropdown id="dropdown02">
+		  <input id="toggle02" type="checkbox" >
+		  <label for="toggle02" id="toggle02lbl"><b>医院性质</b>&nbsp;<img src="images/triangle.png" style="width:16px;height:8px"></label>
+		  <ul >
+		    <li onclick="selectNature(0,0)">全&nbsp;部</li>
+		    <li onclick="selectNature(0,0)">公立医院</li>
+		    <li onclick="selectNature(0,0)">私立医院</li>
+		  </ul>
+		</dropdown>
+		<dropdown id="dropdown03">
+		  <input id="toggle03" type="checkbox" >
+		  <label for="toggle03" id="toggle03lbl"><b>诊疗范围</b>&nbsp;<img src="images/triangle.png" style="width:16px;height:8px"></label>
+		  <ul >
+		    <li onclick="selectScope(0,0)">全&nbsp;部</li>
+		    <li onclick="selectScope(0,0)">综合医院</li>
+		    <li onclick="selectScope(0,0)">专科医院</li>
+		  </ul>
+		</dropdown>
+    	
+    </div>
+</header>
+<div class="mui-content" id="hoslist" style="display:none">
+	<div id="list01" style="background-color:#D8D8D8;padding:10px 20px 10px 20px;">
+		
+    </div>
+</div>
+
+</body>
+</html>
+<script type="text/javascript">
+	var href = window.location.href;
+	var locationStr = href.substring(href.indexOf("?location")+10);
+	 // 创建Map实例 参数是元素id，也可以是元素对象
+	var map = new BMap.Map("allmap",{enableMapClick:false}); 
+	
+	var  lgn = 108.88348;
+	var lat = 31.27421;
+
+	if(locationStr=="0"){
+		//浏览器定位
+		var geolocation = new BMap.Geolocation();
+		geolocation.getCurrentPosition(function(r){
+			if(this.getStatus() == BMAP_STATUS_SUCCESS){
+				lgn = r.point.lng;
+				lat = r.point.lat;
+				
+				// 创建点坐标
+				point = new BMap.Point(lgn, lat);
+				// 初始化地图,设置中心点坐标和地图级别。
+				map.centerAndZoom(point,15); 
+				map.enableScrollWheelZoom();//开启滚轮缩放
+				addMarker(point,12);
+				getHospitalData();
+			}
+			else {
+				//alert('failed'+this.getStatus());
+				location = "http://open.quyiyuan.com/publicservice/info.html";
+			}        
+		},{enableHighAccuracy: true})
+
+	}else{
+		lgn = locationStr.substring(0,locationStr.indexOf(","));
+		lat = locationStr.substring(locationStr.indexOf(",")+1);
+		
+		// 创建点坐标
+		point = new BMap.Point(lgn, lat);
+		// 初始化地图,设置中心点坐标和地图级别。
+		map.centerAndZoom(point,15); 
+		map.enableScrollWheelZoom();//开启滚轮缩放
+		addMarker(point,12);
+		getHospitalData();
+		
+	}
+
+</script>

@@ -1,0 +1,469 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.kyee:publicservice:war:1.0.10
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 118, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-eclipse-plugin/2.9/maven-eclipse-plugin-2.9.pom
+Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-eclipse-plugin/2.9/maven-eclipse-plugin-2.9.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom
+Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-eclipse-plugin/2.9/maven-eclipse-plugin-2.9.jar
+Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-eclipse-plugin/2.9/maven-eclipse-plugin-2.9.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom
+Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-plugins/24/maven-plugins-24.pom
+Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-plugins/24/maven-plugins-24.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar
+Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-source-plugin/2.1/maven-source-plugin-2.1.pom
+Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-source-plugin/2.1/maven-source-plugin-2.1.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-plugins/13/maven-plugins-13.pom
+Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-plugins/13/maven-plugins-13.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/maven-parent/11/maven-parent-11.pom
+Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/maven-parent/11/maven-parent-11.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/apache/5/apache-5.pom
+Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/apache/5/apache-5.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-source-plugin/2.1/maven-source-plugin-2.1.jar
+Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-source-plugin/2.1/maven-source-plugin-2.1.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom
+Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar
+Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom
+Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom
+Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar
+Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-war-plugin/2.2/maven-war-plugin-2.2.pom
+Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-war-plugin/2.2/maven-war-plugin-2.2.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-war-plugin/2.2/maven-war-plugin-2.2.jar
+Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-war-plugin/2.2/maven-war-plugin-2.2.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom
+Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom
+Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar
+Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.pom
+Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.jar
+Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.pom
+Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.jar
+Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-site-plugin/3.3/maven-site-plugin-3.3.pom
+Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-site-plugin/3.3/maven-site-plugin-3.3.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-site-plugin/3.3/maven-site-plugin-3.3.jar
+Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-site-plugin/3.3/maven-site-plugin-3.3.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-antrun-plugin/1.3/maven-antrun-plugin-1.3.pom
+4/5 KB   5/5 KB            Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-antrun-plugin/1.3/maven-antrun-plugin-1.3.pom (5 KB at 10.7 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-plugins/12/maven-plugins-12.pom
+3/12 KB   7/12 KB   9/12 KB   12/12 KB              Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-plugins/12/maven-plugins-12.pom (12 KB at 54.4 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/maven-parent/9/maven-parent-9.pom
+           Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/maven-parent/9/maven-parent-9.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/apache/4/apache-4.pom
+           Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/apache/4/apache-4.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-antrun-plugin/1.3/maven-antrun-plugin-1.3.jar
+3/24 KB    7/24 KB   11/24 KB   11/24 KB   14/24 KB   18/24 KB   22/24 KB   23/24 KB   24/24 KB              Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-antrun-plugin/1.3/maven-antrun-plugin-1.3.jar (24 KB at 80.2 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-assembly-plugin/2.2-beta-5/maven-assembly-plugin-2.2-beta-5.pom
+4/15 KB    8/15 KB   11/15 KB   13/15 KB   15/15 KB              Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-assembly-plugin/2.2-beta-5/maven-assembly-plugin-2.2-beta-5.pom (15 KB at 50.2 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-plugins/16/maven-plugins-16.pom
+2/13 KB    6/13 KB   10/13 KB   10/13 KB   13/13 KB              Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-plugins/16/maven-plugins-16.pom (13 KB at 65.9 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-assembly-plugin/2.2-beta-5/maven-assembly-plugin-2.2-beta-5.jar
+3/204 KB   7/204 KB   11/204 KB   12/204 KB   16/204 KB   18/204 KB   21/204 KB   22/204 KB   23/204 KB   25/204 KB   28/204 KB   29/204 KB   32/204 KB   33/204 KB   35/204 KB   38/204 KB   40/204 KB   43/204 KB   46/204 KB   48/204 KB   49/204 KB   52/204 KB   55/204 KB   57/204 KB   60/204 KB   62/204 KB   63/204 KB   64/204 KB   66/204 KB   70/204 KB   72/204 KB   74/204 KB   76/204 KB   79/204 KB   81/204 KB   84/204 KB   86/204 KB   87/204 KB   89/204 KB   93/204 KB   93/204 KB   97/204 KB   101/204 KB   103/204 KB   104/204 KB   105/204 KB   107/204 KB   108/204 KB   111/204 KB   113/204 KB   114/204 KB   117/204 KB   118/204 KB   121/204 KB   122/204 KB   125/204 KB   129/204 KB   130/204 KB   132/204 KB   136/204 KB   138/204 KB   139/204 KB   141/204 KB   144/204 KB   148/204 KB   152/204 KB   154/204 KB   156/204 KB   158/204 KB   161/204 KB   165/204 KB   168/204 KB   169/204 KB   172/204 KB   173/204 KB   175/204 KB   178/204 KB   180/204 KB   184/204 KB   187/204 KB   190/204 KB   192/204 KB   193/204 KB   195/204 KB   197/204 KB   200/204 KB   202/204 KB   203/204 KB   204/204 KB                Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-assembly-plugin/2.2-beta-5/maven-assembly-plugin-2.2-beta-5.jar (204 KB at 266.6 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-dependency-plugin/2.8/maven-dependency-plugin-2.8.pom
+3/12 KB      7/12 KB   11/12 KB   12/12 KB              Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-dependency-plugin/2.8/maven-dependency-plugin-2.8.pom (12 KB at 36.9 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-dependency-plugin/2.8/maven-dependency-plugin-2.8.jar
+3/150 KB   7/150 KB   11/150 KB   12/150 KB   15/150 KB   16/150 KB   19/150 KB   21/150 KB   23/150 KB   26/150 KB   30/150 KB   31/150 KB   33/150 KB   35/150 KB   36/150 KB   39/150 KB   42/150 KB   45/150 KB   46/150 KB   48/150 KB   49/150 KB   50/150 KB   52/150 KB   55/150 KB   57/150 KB   60/150 KB   63/150 KB   64/150 KB   66/150 KB   67/150 KB   69/150 KB   70/150 KB   72/150 KB   74/150 KB   76/150 KB   77/150 KB   79/150 KB   81/150 KB   84/150 KB   87/150 KB   89/150 KB   90/150 KB   91/150 KB   93/150 KB   94/150 KB   96/150 KB   97/150 KB   98/150 KB   101/150 KB   103/150 KB   104/150 KB   105/150 KB   108/150 KB   111/150 KB   113/150 KB   114/150 KB   115/150 KB   117/150 KB   120/150 KB   121/150 KB   122/150 KB   125/150 KB   127/150 KB   130/150 KB   132/150 KB   134/150 KB   135/150 KB   138/150 KB   139/150 KB   143/150 KB   146/150 KB   148/150 KB   150/150 KB                Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-dependency-plugin/2.8/maven-dependency-plugin-2.8.jar (150 KB at 321.7 KB/sec)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building publicservice 1.0.10
+[INFO] ------------------------------------------------------------------------
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/kyee/kyee_nextframework_core/1.0.60/kyee_nextframework_core-1.0.60.pom
+             [WARNING] The POM for com.kyee:kyee_nextframework_core:jar:1.0.60 is missing, no dependency information available
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/kyee/kyee_nextframework_plugins_extsupport/1.0.60/kyee_nextframework_plugins_extsupport-1.0.60.pom
+             [WARNING] The POM for com.kyee:kyee_nextframework_plugins_extsupport:jar:1.0.60 is missing, no dependency information available
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/dom4j/dom4j/1.6/dom4j-1.6.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/dom4j/dom4j/1.6/dom4j-1.6.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/junit/junit/4.12/junit-4.12.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/junit/junit/4.12/junit-4.12.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/projectlombok/lombok/1.14.8/lombok-1.14.8.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/projectlombok/lombok/1.14.8/lombok-1.14.8.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/fasterxml/jackson/core/jackson-databind/2.5.3/jackson-databind-2.5.3.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/fasterxml/jackson/core/jackson-databind/2.5.3/jackson-databind-2.5.3.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/fasterxml/jackson/jackson-parent/2.5.1/jackson-parent-2.5.1.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/fasterxml/jackson/jackson-parent/2.5.1/jackson-parent-2.5.1.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/fasterxml/oss-parent/19/oss-parent-19.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/fasterxml/oss-parent/19/oss-parent-19.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-starter-feign/1.3.2.RELEASE/spring-cloud-starter-feign-1.3.2.RELEASE.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-starter-feign/1.3.2.RELEASE/spring-cloud-starter-feign-1.3.2.RELEASE.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-netflix/1.3.2.RELEASE/spring-cloud-netflix-1.3.2.RELEASE.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-netflix/1.3.2.RELEASE/spring-cloud-netflix-1.3.2.RELEASE.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-build/1.3.3.RELEASE/spring-cloud-build-1.3.3.RELEASE.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-build/1.3.3.RELEASE/spring-cloud-build-1.3.3.RELEASE.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-netflix-dependencies/1.3.2.RELEASE/spring-cloud-netflix-dependencies-1.3.2.RELEASE.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-netflix-dependencies/1.3.2.RELEASE/spring-cloud-netflix-dependencies-1.3.2.RELEASE.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-dependencies-parent/1.3.3.RELEASE/spring-cloud-dependencies-parent-1.3.3.RELEASE.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-dependencies-parent/1.3.3.RELEASE/spring-cloud-dependencies-parent-1.3.3.RELEASE.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-commons-dependencies/1.2.3.RELEASE/spring-cloud-commons-dependencies-1.2.3.RELEASE.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-commons-dependencies/1.2.3.RELEASE/spring-cloud-commons-dependencies-1.2.3.RELEASE.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-config-dependencies/1.3.2.RELEASE/spring-cloud-config-dependencies-1.3.2.RELEASE.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-config-dependencies/1.3.2.RELEASE/spring-cloud-config-dependencies-1.3.2.RELEASE.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-stream-dependencies/Chelsea.SR2/spring-cloud-stream-dependencies-Chelsea.SR2.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-stream-dependencies/Chelsea.SR2/spring-cloud-stream-dependencies-Chelsea.SR2.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-dependencies-parent/1.3.2.RELEASE/spring-cloud-dependencies-parent-1.3.2.RELEASE.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-dependencies-parent/1.3.2.RELEASE/spring-cloud-dependencies-parent-1.3.2.RELEASE.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-build-dependencies/1.3.3.RELEASE/spring-cloud-build-dependencies-1.3.3.RELEASE.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-build-dependencies/1.3.3.RELEASE/spring-cloud-build-dependencies-1.3.3.RELEASE.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/boot/spring-boot-dependencies/1.5.4.RELEASE/spring-boot-dependencies-1.5.4.RELEASE.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/boot/spring-boot-dependencies/1.5.4.RELEASE/spring-boot-dependencies-1.5.4.RELEASE.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/fasterxml/jackson/jackson-bom/2.8.8/jackson-bom-2.8.8.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/fasterxml/jackson/jackson-bom/2.8.8/jackson-bom-2.8.8.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/fasterxml/jackson/jackson-parent/2.8/jackson-parent-2.8.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/fasterxml/jackson/jackson-parent/2.8/jackson-parent-2.8.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/fasterxml/oss-parent/27/oss-parent-27.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/fasterxml/oss-parent/27/oss-parent-27.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/logging/log4j/log4j-bom/2.7/log4j-bom-2.7.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/logging/log4j/log4j-bom/2.7/log4j-bom-2.7.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/apache/9/apache-9.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/apache/9/apache-9.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/spring-framework-bom/4.3.9.RELEASE/spring-framework-bom-4.3.9.RELEASE.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/spring-framework-bom/4.3.9.RELEASE/spring-framework-bom-4.3.9.RELEASE.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/data/spring-data-releasetrain/Ingalls-SR4/spring-data-releasetrain-Ingalls-SR4.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/data/spring-data-releasetrain/Ingalls-SR4/spring-data-releasetrain-Ingalls-SR4.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/data/build/spring-data-build/1.9.4.RELEASE/spring-data-build-1.9.4.RELEASE.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/data/build/spring-data-build/1.9.4.RELEASE/spring-data-build-1.9.4.RELEASE.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/integration/spring-integration-bom/4.3.10.RELEASE/spring-integration-bom-4.3.10.RELEASE.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/integration/spring-integration-bom/4.3.10.RELEASE/spring-integration-bom-4.3.10.RELEASE.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/security/spring-security-bom/4.2.3.RELEASE/spring-security-bom-4.2.3.RELEASE.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/security/spring-security-bom/4.2.3.RELEASE/spring-security-bom-4.2.3.RELEASE.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-starter/1.2.3.RELEASE/spring-cloud-starter-1.2.3.RELEASE.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-starter/1.2.3.RELEASE/spring-cloud-starter-1.2.3.RELEASE.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-commons-parent/1.2.3.RELEASE/spring-cloud-commons-parent-1.2.3.RELEASE.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-commons-parent/1.2.3.RELEASE/spring-cloud-commons-parent-1.2.3.RELEASE.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/boot/spring-boot-starter/1.5.4.RELEASE/spring-boot-starter-1.5.4.RELEASE.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/boot/spring-boot-starter/1.5.4.RELEASE/spring-boot-starter-1.5.4.RELEASE.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/boot/spring-boot-starters/1.5.4.RELEASE/spring-boot-starters-1.5.4.RELEASE.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/boot/spring-boot-starters/1.5.4.RELEASE/spring-boot-starters-1.5.4.RELEASE.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/boot/spring-boot-parent/1.5.4.RELEASE/spring-boot-parent-1.5.4.RELEASE.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/boot/spring-boot-parent/1.5.4.RELEASE/spring-boot-parent-1.5.4.RELEASE.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-context/1.2.3.RELEASE/spring-cloud-context-1.2.3.RELEASE.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-context/1.2.3.RELEASE/spring-cloud-context-1.2.3.RELEASE.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/security/spring-security-crypto/4.2.3.RELEASE/spring-security-crypto-4.2.3.RELEASE.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/security/spring-security-crypto/4.2.3.RELEASE/spring-security-crypto-4.2.3.RELEASE.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-commons/1.2.3.RELEASE/spring-cloud-commons-1.2.3.RELEASE.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-commons/1.2.3.RELEASE/spring-cloud-commons-1.2.3.RELEASE.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/security/spring-security-rsa/1.0.3.RELEASE/spring-security-rsa-1.0.3.RELEASE.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/security/spring-security-rsa/1.0.3.RELEASE/spring-security-rsa-1.0.3.RELEASE.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/bouncycastle/bcpkix-jdk15on/1.55/bcpkix-jdk15on-1.55.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/bouncycastle/bcpkix-jdk15on/1.55/bcpkix-jdk15on-1.55.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/bouncycastle/bcprov-jdk15on/1.55/bcprov-jdk15on-1.55.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/bouncycastle/bcprov-jdk15on/1.55/bcprov-jdk15on-1.55.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-netflix-core/1.3.2.RELEASE/spring-cloud-netflix-core-1.3.2.RELEASE.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-netflix-core/1.3.2.RELEASE/spring-cloud-netflix-core-1.3.2.RELEASE.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/spring-web/4.3.9.RELEASE/spring-web-4.3.9.RELEASE.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/spring-web/4.3.9.RELEASE/spring-web-4.3.9.RELEASE.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/io/github/openfeign/feign-core/9.5.0/feign-core-9.5.0.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/io/github/openfeign/feign-core/9.5.0/feign-core-9.5.0.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/io/github/openfeign/parent/9.5.0/parent-9.5.0.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/io/github/openfeign/parent/9.5.0/parent-9.5.0.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/jvnet/animal-sniffer-annotation/1.0/animal-sniffer-annotation-1.0.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/jvnet/animal-sniffer-annotation/1.0/animal-sniffer-annotation-1.0.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/io/github/openfeign/feign-slf4j/9.5.0/feign-slf4j-9.5.0.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/io/github/openfeign/feign-slf4j/9.5.0/feign-slf4j-9.5.0.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/slf4j/slf4j-api/1.7.13/slf4j-api-1.7.13.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/slf4j/slf4j-api/1.7.13/slf4j-api-1.7.13.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/slf4j/slf4j-parent/1.7.13/slf4j-parent-1.7.13.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/slf4j/slf4j-parent/1.7.13/slf4j-parent-1.7.13.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/io/github/openfeign/feign-hystrix/9.5.0/feign-hystrix-9.5.0.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/io/github/openfeign/feign-hystrix/9.5.0/feign-hystrix-9.5.0.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/archaius/archaius-core/0.6.6/archaius-core-0.6.6.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/archaius/archaius-core/0.6.6/archaius-core-0.6.6.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/google/code/findbugs/annotations/2.0.0/annotations-2.0.0.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/google/code/findbugs/annotations/2.0.0/annotations-2.0.0.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/commons-configuration/commons-configuration/1.8/commons-configuration-1.8.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/commons-configuration/commons-configuration/1.8/commons-configuration-1.8.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/commons/commons-parent/23/commons-parent-23.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/commons/commons-parent/23/commons-parent-23.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/google/guava/guava/11.0.2/guava-11.0.2.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/google/guava/guava/11.0.2/guava-11.0.2.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/google/guava/guava-parent/11.0.2/guava-parent-11.0.2.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/google/guava/guava-parent/11.0.2/guava-parent-11.0.2.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/sonatype/oss/oss-parent/7/oss-parent-7.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/fasterxml/jackson/core/jackson-annotations/2.4.3/jackson-annotations-2.4.3.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/fasterxml/jackson/core/jackson-annotations/2.4.3/jackson-annotations-2.4.3.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/fasterxml/jackson/jackson-parent/2.4/jackson-parent-2.4.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/fasterxml/jackson/jackson-parent/2.4/jackson-parent-2.4.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/fasterxml/oss-parent/16/oss-parent-16.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/fasterxml/oss-parent/16/oss-parent-16.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/fasterxml/jackson/core/jackson-core/2.4.3/jackson-core-2.4.3.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/fasterxml/jackson/core/jackson-core/2.4.3/jackson-core-2.4.3.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/fasterxml/jackson/core/jackson-databind/2.4.3/jackson-databind-2.4.3.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/fasterxml/jackson/core/jackson-databind/2.4.3/jackson-databind-2.4.3.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/hystrix/hystrix-core/1.4.26/hystrix-core-1.4.26.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/hystrix/hystrix-core/1.4.26/hystrix-core-1.4.26.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/archaius/archaius-core/0.4.1/archaius-core-0.4.1.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/archaius/archaius-core/0.4.1/archaius-core-0.4.1.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/io/reactivex/rxjava/1.1.1/rxjava-1.1.1.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/io/reactivex/rxjava/1.1.1/rxjava-1.1.1.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/slf4j/slf4j-api/1.7.0/slf4j-api-1.7.0.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/slf4j/slf4j-api/1.7.0/slf4j-api-1.7.0.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/slf4j/slf4j-parent/1.7.0/slf4j-parent-1.7.0.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/slf4j/slf4j-parent/1.7.0/slf4j-parent-1.7.0.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-starter-ribbon/1.3.2.RELEASE/spring-cloud-starter-ribbon-1.3.2.RELEASE.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-starter-ribbon/1.3.2.RELEASE/spring-cloud-starter-ribbon-1.3.2.RELEASE.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-starter-archaius/1.3.2.RELEASE/spring-cloud-starter-archaius-1.3.2.RELEASE.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-starter-archaius/1.3.2.RELEASE/spring-cloud-starter-archaius-1.3.2.RELEASE.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/archaius/archaius-core/0.7.4/archaius-core-0.7.4.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/archaius/archaius-core/0.7.4/archaius-core-0.7.4.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/google/guava/guava/16.0/guava-16.0.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/google/guava/guava/16.0/guava-16.0.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/google/guava/guava-parent/16.0/guava-parent-16.0.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/google/guava/guava-parent/16.0/guava-parent-16.0.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/fasterxml/jackson/core/jackson-core/2.8.8/jackson-core-2.8.8.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/fasterxml/jackson/core/jackson-core/2.8.8/jackson-core-2.8.8.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/fasterxml/jackson/core/jackson-databind/2.8.8/jackson-databind-2.8.8.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/fasterxml/jackson/core/jackson-databind/2.8.8/jackson-databind-2.8.8.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/google/guava/guava/18.0/guava-18.0.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/google/guava/guava/18.0/guava-18.0.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/google/guava/guava-parent/18.0/guava-parent-18.0.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/google/guava/guava-parent/18.0/guava-parent-18.0.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/ribbon/ribbon/2.2.2/ribbon-2.2.2.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/ribbon/ribbon/2.2.2/ribbon-2.2.2.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/ribbon/ribbon-core/2.2.2/ribbon-core-2.2.2.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/ribbon/ribbon-core/2.2.2/ribbon-core-2.2.2.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/ribbon/ribbon-transport/2.2.2/ribbon-transport-2.2.2.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/ribbon/ribbon-transport/2.2.2/ribbon-transport-2.2.2.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/netflix-commons/netflix-statistics/0.1.1/netflix-statistics-0.1.1.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/netflix-commons/netflix-statistics/0.1.1/netflix-statistics-0.1.1.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/io/reactivex/rxjava/1.0.9/rxjava-1.0.9.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/io/reactivex/rxjava/1.0.9/rxjava-1.0.9.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/slf4j/slf4j-parent/1.7.12/slf4j-parent-1.7.12.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/slf4j/slf4j-parent/1.7.12/slf4j-parent-1.7.12.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/servo/servo-core/0.10.1/servo-core-0.10.1.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/servo/servo-core/0.10.1/servo-core-0.10.1.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/google/guava/guava/16.0.1/guava-16.0.1.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/google/guava/guava/16.0.1/guava-16.0.1.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/google/guava/guava-parent/16.0.1/guava-parent-16.0.1.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/google/guava/guava-parent/16.0.1/guava-parent-16.0.1.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/servo/servo-internal/0.10.1/servo-internal-0.10.1.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/servo/servo-internal/0.10.1/servo-internal-0.10.1.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/netflix-commons/netflix-commons-util/0.1.1/netflix-commons-util-0.1.1.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/netflix-commons/netflix-commons-util/0.1.1/netflix-commons-util-0.1.1.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/io/reactivex/rxjava/1.0.10/rxjava-1.0.10.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/io/reactivex/rxjava/1.0.10/rxjava-1.0.10.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/io/reactivex/rxnetty/0.4.9/rxnetty-0.4.9.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/io/reactivex/rxnetty/0.4.9/rxnetty-0.4.9.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/io/netty/netty-codec-http/4.0.27.Final/netty-codec-http-4.0.27.Final.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/io/netty/netty-codec-http/4.0.27.Final/netty-codec-http-4.0.27.Final.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/io/netty/netty-parent/4.0.27.Final/netty-parent-4.0.27.Final.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/io/netty/netty-parent/4.0.27.Final/netty-parent-4.0.27.Final.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/sonatype/oss/oss-parent/9/oss-parent-9.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/io/netty/netty-transport-native-epoll/4.0.27.Final/netty-transport-native-epoll-4.0.27.Final.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/io/netty/netty-transport-native-epoll/4.0.27.Final/netty-transport-native-epoll-4.0.27.Final.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/slf4j/slf4j-api/1.7.6/slf4j-api-1.7.6.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/slf4j/slf4j-api/1.7.6/slf4j-api-1.7.6.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/slf4j/slf4j-parent/1.7.6/slf4j-parent-1.7.6.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/slf4j/slf4j-parent/1.7.6/slf4j-parent-1.7.6.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/io/reactivex/rxnetty-contexts/0.4.9/rxnetty-contexts-0.4.9.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/io/reactivex/rxnetty-contexts/0.4.9/rxnetty-contexts-0.4.9.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/io/reactivex/rxnetty-servo/0.4.9/rxnetty-servo-0.4.9.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/io/reactivex/rxnetty-servo/0.4.9/rxnetty-servo-0.4.9.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/servo/servo-core/0.7.5/servo-core-0.7.5.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/servo/servo-core/0.7.5/servo-core-0.7.5.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/google/guava/guava/14.0.1/guava-14.0.1.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/google/guava/guava/14.0.1/guava-14.0.1.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/javax/inject/javax.inject/1/javax.inject-1.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/javax/inject/javax.inject/1/javax.inject-1.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/hystrix/hystrix-core/1.4.3/hystrix-core-1.4.3.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/hystrix/hystrix-core/1.4.3/hystrix-core-1.4.3.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/io/reactivex/rxjava/1.0.7/rxjava-1.0.7.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/io/reactivex/rxjava/1.0.7/rxjava-1.0.7.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/ribbon/ribbon-httpclient/2.2.2/ribbon-httpclient-2.2.2.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/ribbon/ribbon-httpclient/2.2.2/ribbon-httpclient-2.2.2.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/commons/commons-parent/9/commons-parent-9.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/commons/commons-parent/9/commons-parent-9.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/httpcomponents/httpclient/4.2.1/httpclient-4.2.1.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/httpcomponents/httpclient/4.2.1/httpclient-4.2.1.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/httpcomponents/httpcomponents-client/4.2.1/httpcomponents-client-4.2.1.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/httpcomponents/httpcomponents-client/4.2.1/httpcomponents-client-4.2.1.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/sun/jersey/jersey-client/1.19.1/jersey-client-1.19.1.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/sun/jersey/jersey-client/1.19.1/jersey-client-1.19.1.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/sun/jersey/jersey-project/1.19.1/jersey-project-1.19.1.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/sun/jersey/jersey-project/1.19.1/jersey-project-1.19.1.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/sun/jersey/contribs/jersey-apache-client4/1.19.1/jersey-apache-client4-1.19.1.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/sun/jersey/contribs/jersey-apache-client4/1.19.1/jersey-apache-client4-1.19.1.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/sun/jersey/contribs/jersey-contribs/1.19.1/jersey-contribs-1.19.1.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/sun/jersey/contribs/jersey-contribs/1.19.1/jersey-contribs-1.19.1.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/io/reactivex/rxjava/1.1.10/rxjava-1.1.10.pom
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/io/reactivex/rxjava/1.1.10/rxjava-1.1.10.pom (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/kyee/kyee_nextframework_plugins_extsupport/1.0.60/kyee_nextframework_plugins_extsupport-1.0.60.jar
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/kyee/kyee_nextframework_core/1.0.60/kyee_nextframework_core-1.0.60.jar
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/dom4j/dom4j/1.6/dom4j-1.6.jar
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/dom4j/dom4j/1.6/dom4j-1.6.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/junit/junit/4.12/junit-4.12.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/projectlombok/lombok/1.14.8/lombok-1.14.8.jar
+             Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/fasterxml/jackson/core/jackson-databind/2.5.3/jackson-databind-2.5.3.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/junit/junit/4.12/junit-4.12.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-starter-feign/1.3.2.RELEASE/spring-cloud-starter-feign-1.3.2.RELEASE.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-starter/1.2.3.RELEASE/spring-cloud-starter-1.2.3.RELEASE.jar
+             Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/boot/spring-boot-starter/1.5.4.RELEASE/spring-boot-starter-1.5.4.RELEASE.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/projectlombok/lombok/1.14.8/lombok-1.14.8.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-context/1.2.3.RELEASE/spring-cloud-context-1.2.3.RELEASE.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-starter-feign/1.3.2.RELEASE/spring-cloud-starter-feign-1.3.2.RELEASE.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/security/spring-security-rsa/1.0.3.RELEASE/spring-security-rsa-1.0.3.RELEASE.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/fasterxml/jackson/core/jackson-databind/2.5.3/jackson-databind-2.5.3.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/bouncycastle/bcpkix-jdk15on/1.55/bcpkix-jdk15on-1.55.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-starter/1.2.3.RELEASE/spring-cloud-starter-1.2.3.RELEASE.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/bouncycastle/bcprov-jdk15on/1.55/bcprov-jdk15on-1.55.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/boot/spring-boot-starter/1.5.4.RELEASE/spring-boot-starter-1.5.4.RELEASE.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-netflix-core/1.3.2.RELEASE/spring-cloud-netflix-core-1.3.2.RELEASE.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-context/1.2.3.RELEASE/spring-cloud-context-1.2.3.RELEASE.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/boot/spring-boot/1.5.4.RELEASE/spring-boot-1.5.4.RELEASE.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/security/spring-security-rsa/1.0.3.RELEASE/spring-security-rsa-1.0.3.RELEASE.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/boot/spring-boot-autoconfigure/1.5.4.RELEASE/spring-boot-autoconfigure-1.5.4.RELEASE.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/bouncycastle/bcpkix-jdk15on/1.55/bcpkix-jdk15on-1.55.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/spring-web/4.3.9.RELEASE/spring-web-4.3.9.RELEASE.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/bouncycastle/bcprov-jdk15on/1.55/bcprov-jdk15on-1.55.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/spring-aop/4.3.9.RELEASE/spring-aop-4.3.9.RELEASE.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-netflix-core/1.3.2.RELEASE/spring-cloud-netflix-core-1.3.2.RELEASE.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/spring-beans/4.3.9.RELEASE/spring-beans-4.3.9.RELEASE.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/boot/spring-boot/1.5.4.RELEASE/spring-boot-1.5.4.RELEASE.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/spring-context/4.3.9.RELEASE/spring-context-4.3.9.RELEASE.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/spring-web/4.3.9.RELEASE/spring-web-4.3.9.RELEASE.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/spring-expression/4.3.9.RELEASE/spring-expression-4.3.9.RELEASE.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/boot/spring-boot-autoconfigure/1.5.4.RELEASE/spring-boot-autoconfigure-1.5.4.RELEASE.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/spring-core/4.3.9.RELEASE/spring-core-4.3.9.RELEASE.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/spring-aop/4.3.9.RELEASE/spring-aop-4.3.9.RELEASE.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/spring-beans/4.3.9.RELEASE/spring-beans-4.3.9.RELEASE.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-commons/1.2.3.RELEASE/spring-cloud-commons-1.2.3.RELEASE.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/spring-context/4.3.9.RELEASE/spring-context-4.3.9.RELEASE.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/security/spring-security-crypto/4.2.3.RELEASE/spring-security-crypto-4.2.3.RELEASE.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/spring-core/4.3.9.RELEASE/spring-core-4.3.9.RELEASE.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/io/github/openfeign/feign-core/9.5.0/feign-core-9.5.0.jar
+3/258 KB     7/258 KB   11/258 KB   12/258 KB   14/258 KB   16/258 KB   19/258 KB   23/258 KB   27/258 KB   28/258 KB               Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/commons-logging/commons-logging/1.2/commons-logging-1.2.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/jvnet/animal-sniffer-annotation/1.0/animal-sniffer-annotation-1.0.jar
+32/258 KB   35/258 KB   36/258 KB   38/258 KB   39/258 KB   40/258 KB   42/258 KB   43/258 KB   45/258 KB   46/258 KB   48/258 KB   49/258 KB   50/258 KB   52/258 KB   53/258 KB   55/258 KB   57/258 KB   59/258 KB   60/258 KB   62/258 KB   64/258 KB   66/258 KB   69/258 KB   70/258 KB   72/258 KB   73/258 KB   74/258 KB   76/258 KB   77/258 KB   79/258 KB   81/258 KB   85/258 KB   89/258 KB   90/258 KB   91/258 KB   93/258 KB   94/258 KB   96/258 KB   97/258 KB               Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/security/spring-security-crypto/4.2.3.RELEASE/spring-security-crypto-4.2.3.RELEASE.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/io/github/openfeign/feign-slf4j/9.5.0/feign-slf4j-9.5.0.jar
+100/258 KB   103/258 KB   104/258 KB   105/258 KB   107/258 KB   108/258 KB   110/258 KB   111/258 KB   113/258 KB   114/258 KB   115/258 KB   118/258 KB   120/258 KB   121/258 KB   124/258 KB   125/258 KB   127/258 KB   131/258 KB   131/258 KB   134/258 KB   137/258 KB   139/258 KB   142/258 KB   144/258 KB   148/258 KB   152/258 KB   156/258 KB   160/258 KB   160/258 KB   164/258 KB   168/258 KB   172/258 KB   172/258 KB   173/258 KB   177/258 KB   181/258 KB   185/258 KB   189/258 KB   190/258 KB                Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/io/github/openfeign/feign-core/9.5.0/feign-core-9.5.0.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/slf4j/slf4j-api/1.7.13/slf4j-api-1.7.13.jar
+194/258 KB   198/258 KB   202/258 KB   203/258 KB                Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/jvnet/animal-sniffer-annotation/1.0/animal-sniffer-annotation-1.0.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/io/github/openfeign/feign-hystrix/9.5.0/feign-hystrix-9.5.0.jar
+204/258 KB   208/258 KB   212/258 KB   216/258 KB   220/258 KB   224/258 KB   228/258 KB   229/258 KB                Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/io/github/openfeign/feign-slf4j/9.5.0/feign-slf4j-9.5.0.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/archaius/archaius-core/0.6.6/archaius-core-0.6.6.jar
+233/258 KB   237/258 KB   237/258 KB   241/258 KB   243/258 KB   244/258 KB   247/258 KB   248/258 KB   250/258 KB   253/258 KB   254/258 KB   255/258 KB   258/258 KB                Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-commons/1.2.3.RELEASE/spring-cloud-commons-1.2.3.RELEASE.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/google/code/findbugs/annotations/2.0.0/annotations-2.0.0.jar
+                          Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/io/github/openfeign/feign-hystrix/9.5.0/feign-hystrix-9.5.0.jar (0 B at 0.0 KB/sec)
+Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/slf4j/slf4j-api/1.7.13/slf4j-api-1.7.13.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/hystrix/hystrix-core/1.4.26/hystrix-core-1.4.26.jar
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-starter-ribbon/1.3.2.RELEASE/spring-cloud-starter-ribbon-1.3.2.RELEASE.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/archaius/archaius-core/0.6.6/archaius-core-0.6.6.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/ribbon/ribbon/2.2.2/ribbon-2.2.2.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/spring-expression/4.3.9.RELEASE/spring-expression-4.3.9.RELEASE.jar (258 KB at 117.5 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/ribbon/ribbon-transport/2.2.2/ribbon-transport-2.2.2.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/google/code/findbugs/annotations/2.0.0/annotations-2.0.0.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/io/reactivex/rxnetty-contexts/0.4.9/rxnetty-contexts-0.4.9.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-starter-ribbon/1.3.2.RELEASE/spring-cloud-starter-ribbon-1.3.2.RELEASE.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/io/reactivex/rxnetty-servo/0.4.9/rxnetty-servo-0.4.9.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/hystrix/hystrix-core/1.4.26/hystrix-core-1.4.26.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/javax/inject/javax.inject/1/javax.inject-1.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/ribbon/ribbon/2.2.2/ribbon-2.2.2.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/io/reactivex/rxnetty/0.4.9/rxnetty-0.4.9.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/ribbon/ribbon-transport/2.2.2/ribbon-transport-2.2.2.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/io/netty/netty-codec-http/4.0.27.Final/netty-codec-http-4.0.27.Final.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/io/reactivex/rxnetty-contexts/0.4.9/rxnetty-contexts-0.4.9.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/io/netty/netty-transport-native-epoll/4.0.27.Final/netty-transport-native-epoll-4.0.27.Final.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/javax/inject/javax.inject/1/javax.inject-1.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/ribbon/ribbon-core/2.2.2/ribbon-core-2.2.2.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/io/reactivex/rxnetty-servo/0.4.9/rxnetty-servo-0.4.9.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/io/reactivex/rxnetty/0.4.9/rxnetty-0.4.9.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/ribbon/ribbon-httpclient/2.2.2/ribbon-httpclient-2.2.2.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/io/netty/netty-codec-http/4.0.27.Final/netty-codec-http-4.0.27.Final.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/io/netty/netty-transport-native-epoll/4.0.27.Final/netty-transport-native-epoll-4.0.27.Final.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/httpcomponents/httpclient/4.2.1/httpclient-4.2.1.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/commons-lang/commons-lang/2.6/commons-lang-2.6.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/ribbon/ribbon-core/2.2.2/ribbon-core-2.2.2.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/commons-codec/commons-codec/1.6/commons-codec-1.6.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/ribbon/ribbon-httpclient/2.2.2/ribbon-httpclient-2.2.2.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/sun/jersey/jersey-client/1.19.1/jersey-client-1.19.1.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/sun/jersey/contribs/jersey-apache-client4/1.19.1/jersey-apache-client4-1.19.1.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/httpcomponents/httpclient/4.2.1/httpclient-4.2.1.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/servo/servo-core/0.10.1/servo-core-0.10.1.jar
+             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/sun/jersey/jersey-client/1.19.1/jersey-client-1.19.1.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/servo/servo-internal/0.10.1/servo-internal-0.10.1.jar
+3/228 KB     7/228 KB   7/228 KB   4/219 KB   7/228 KB   8/219 KB   7/228 KB   12/219 KB   7/228 KB                          Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/sun/jersey/contribs/jersey-apache-client4/1.19.1/jersey-apache-client4-1.19.1.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/netflix-commons/netflix-commons-util/0.1.1/netflix-commons-util-0.1.1.jar
+                       14/219 KB   7/228 KB   Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/servo/servo-core/0.10.1/servo-core-0.10.1.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2.jar
+14/219 KB   10/228 KB   15/219 KB   10/228 KB   15/219 KB   11/228 KB   16/219 KB   11/228 KB   18/219 KB   11/228 KB   18/219 KB   13/228 KB   21/219 KB   13/228 KB   21/219 KB   14/228 KB   21/219 KB   16/228 KB   22/219 KB   16/228 KB   25/219 KB   16/228 KB   28/219 KB   16/228 KB   31/219 KB   16/228 KB   32/219 KB   16/228 KB   33/219 KB   16/228 KB   35/219 KB   16/228 KB   36/219 KB   16/228 KB   38/219 KB   16/228 KB   40/219 KB   16/228 KB   42/219 KB   16/228 KB   43/219 KB   16/228 KB   45/219 KB   16/228 KB   46/219 KB   16/228 KB   48/219 KB   16/228 KB   49/219 KB   16/228 KB   53/219 KB   16/228 KB   56/219 KB   16/228 KB   57/219 KB   16/228 KB   59/219 KB   16/228 KB   60/219 KB   16/228 KB   60/219 KB   17/228 KB   60/219 KB   20/228 KB   60/219 KB   21/228 KB   60/219 KB   24/228 KB   60/219 KB   26/228 KB   62/219 KB   26/228 KB   66/219 KB   26/228 KB   66/219 KB   26/228 KB   67/219 KB   26/228 KB   69/219 KB   26/228 KB   72/219 KB   26/228 KB   76/219 KB   26/228 KB   80/219 KB   26/228 KB   83/219 KB   26/228 KB   86/219 KB   26/228 KB   87/219 KB   26/228 KB   90/219 KB   26/228 KB   93/219 KB   26/228 KB   94/219 KB   26/228 KB   96/219 KB   26/228 KB   97/219 KB   26/228 KB   97/219 KB   27/228 KB   97/219 KB   30/228 KB   97/219 KB   33/228 KB   97/219 KB   36/228 KB   98/219 KB   37/228 KB   98/219 KB   37/228 KB   100/219 KB   37/228 KB   103/219 KB   37/228 KB   104/219 KB   37/228 KB   105/219 KB   37/228 KB   109/219 KB   37/228 KB   111/219 KB   37/228 KB   114/219 KB   37/228 KB   115/219 KB   37/228 KB   115/219 KB   38/228 KB   115/219 KB   41/228 KB   115/219 KB   45/228 KB   115/219 KB   45/228 KB   115/219 KB   47/228 KB   117/219 KB   47/228 KB   120/219 KB   47/228 KB                            Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/servo/servo-internal/0.10.1/servo-internal-0.10.1.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/netflix-commons/netflix-statistics/0.1.1/netflix-statistics-0.1.1.jar
+121/219 KB   47/228 KB                            Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/netflix-commons/netflix-commons-util/0.1.1/netflix-commons-util-0.1.1.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/io/reactivex/rxjava/1.1.10/rxjava-1.1.10.jar
+122/219 KB   47/228 KB   124/219 KB   47/228 KB   125/219 KB   47/228 KB                            Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-starter-archaius/1.3.2.RELEASE/spring-cloud-starter-archaius-1.3.2.RELEASE.jar
+127/219 KB   47/228 KB   131/219 KB   47/228 KB   135/219 KB   47/228 KB   135/219 KB   47/228 KB   137/219 KB   47/228 KB   138/219 KB   47/228 KB   139/219 KB   47/228 KB   141/219 KB   47/228 KB   142/219 KB   47/228 KB   144/219 KB   47/228 KB   146/219 KB   47/228 KB   148/219 KB   47/228 KB   152/219 KB   47/228 KB   155/219 KB   47/228 KB   159/219 KB   47/228 KB   163/219 KB   47/228 KB   166/219 KB   47/228 KB   170/219 KB   47/228 KB   174/219 KB   47/228 KB   175/219 KB   47/228 KB   176/219 KB   47/228 KB   178/219 KB   47/228 KB   179/219 KB   47/228 KB   180/219 KB   47/228 KB                            Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/netflix/netflix-commons/netflix-statistics/0.1.1/netflix-statistics-0.1.1.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/commons-configuration/commons-configuration/1.8/commons-configuration-1.8.jar
+182/219 KB   47/228 KB   185/219 KB   47/228 KB   189/219 KB   47/228 KB   189/219 KB   47/228 KB   193/219 KB   47/228 KB   197/219 KB   47/228 KB   199/219 KB   47/228 KB                            Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/io/reactivex/rxjava/1.1.10/rxjava-1.1.10.jar (0 B at 0.0 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/com/google/guava/guava/18.0/guava-18.0.jar
+                         Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/springframework/cloud/spring-cloud-starter-archaius/1.3.2.RELEASE/spring-cloud-starter-archaius-1.3.2.RELEASE.jar (0 B at 0.0 KB/sec)
+199/219 KB   50/228 KB   202/219 KB   50/228 KB   203/219 KB   50/228 KB   206/219 KB   50/228 KB   207/219 KB   50/228 KB   209/219 KB   50/228 KB   210/219 KB   50/228 KB   212/219 KB   50/228 KB   214/219 KB   50/228 KB   214/219 KB   51/228 KB   214/219 KB   52/228 KB   214/219 KB   54/228 KB   217/219 KB   54/228 KB   219/219 KB   54/228 KB   219/219 KB   57/228 KB   219/219 KB   58/228 KB   219/219 KB   61/228 KB   219/219 KB   64/228 KB   219/219 KB   65/228 KB   219/219 KB   67/228 KB   219/219 KB   68/228 KB   219/219 KB   71/228 KB   219/219 KB   72/228 KB   219/219 KB   75/228 KB   219/219 KB   78/228 KB   219/219 KB   82/228 KB   219/219 KB   84/228 KB   219/219 KB   85/228 KB   219/219 KB   89/228 KB   219/219 KB   92/228 KB   219/219 KB   96/228 KB   219/219 KB   99/228 KB   219/219 KB   102/228 KB   219/219 KB   105/228 KB   219/219 KB   106/228 KB   219/219 KB   108/228 KB   219/219 KB   110/228 KB   219/219 KB   112/228 KB   219/219 KB   115/228 KB   219/219 KB   116/228 KB   219/219 KB   119/228 KB   219/219 KB   120/228 KB   219/219 KB   122/228 KB                             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/commons-configuration/commons-configuration/1.8/commons-configuration-1.8.jar (0 B at 0.0 KB/sec)
+219/219 KB   125/228 KB   219/219 KB   126/228 KB   219/219 KB   127/228 KB   219/219 KB   129/228 KB   219/219 KB   132/228 KB   219/219 KB   134/228 KB   219/219 KB   137/228 KB   219/219 KB   140/228 KB   219/219 KB   143/228 KB   219/219 KB   144/228 KB   219/219 KB   147/228 KB   219/219 KB   151/228 KB   219/219 KB   154/228 KB   219/219 KB   156/228 KB   219/219 KB   159/228 KB   219/219 KB   161/228 KB   219/219 KB   163/228 KB   219/219 KB   164/228 KB   219/219 KB   167/228 KB                             Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/com/google/guava/guava/18.0/guava-18.0.jar (0 B at 0.0 KB/sec)
+                          Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.jar (219 KB at 55.4 KB/sec)
+170/228 KB                173/228 KB   174/228 KB   176/228 KB   177/228 KB   178/228 KB   180/228 KB   181/228 KB   184/228 KB   185/228 KB   187/228 KB   188/228 KB   190/228 KB   191/228 KB   192/228 KB   195/228 KB   197/228 KB   198/228 KB   200/228 KB   201/228 KB   202/228 KB   204/228 KB   205/228 KB   208/228 KB   209/228 KB   213/228 KB   215/228 KB   217/228 KB   218/228 KB   219/228 KB   221/228 KB   225/228 KB   228/228 KB                Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/commons-codec/commons-codec/1.6/commons-codec-1.6.jar (228 KB at 52.8 KB/sec)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 39.446 s
+[INFO] Finished at: 2017-11-08T16:40:19+08:00
+[INFO] Final Memory: 15M/131M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project publicservice: Could not resolve dependencies for project com.kyee:publicservice:war:1.0.10: The following artifacts could not be resolved: com.kyee:kyee_nextframework_core:jar:1.0.60, com.kyee:kyee_nextframework_plugins_extsupport:jar:1.0.60: Could not find artifact com.kyee:kyee_nextframework_core:jar:1.0.60 in alimaven (http://maven.aliyun.com/nexus/content/repositories/central/) -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
